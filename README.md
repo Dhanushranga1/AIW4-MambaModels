@@ -12,7 +12,7 @@ Adapt and train a Mamba (state space model) for image segmentation tasks. This i
 
 ## Progress So Far
 
-- Implemented a custom Mamba-based image segmentation model using patch-based embeddings and deep Mamba encoder blocks.
+- Implemented a Mamba-based image segmentation model using patch-based embeddings and deep Mamba encoder blocks.
 - Successfully trained the model on brain tumor MRI segmentation data.
 - Evaluated using Dice Coefficient and IoU metrics.
 - Compared with traditional UNet implementation from Week 1.
@@ -71,9 +71,3 @@ Adapt and train a Mamba (state space model) for image segmentation tasks. This i
    - [Vision Models with Mamba](https://arxiv.org/abs/2410.21872)  
 
 ---
-
-## Next Steps
-
-- Add validation visualization to monitor overfitting.
-- Apply augmentation and test on noisy MRI inputs.
-- Experiment with mixed precision training and larger input resolution.
